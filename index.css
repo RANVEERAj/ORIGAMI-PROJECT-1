@@ -1,24 +1,102 @@
-.MYHEADING{
-    background-color:rgb(10, 178, 184);
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 40;
+    color: rgb(255, 255, 255);
 }
-.FOLLOWUS{
-    background-color: chartreuse;
+
+.body{
+    background-image: url(bg.jpg);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    text-align: center;
 }
-.COLOUR{
-    background-color: aquamarine;
+
+
+.color{
+    background-color:rgba(210, 201, 224, 0.815);
 }
-.COLOUR1{
-    background-color: rgb(202, 235, 16);
+.grid1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-evenly;
 }
-.COLOUR2{
-    background-color: rgb(184, 9, 219);
+
+.grid2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-evenly;
 }
-.COLOUR3{
-    background-color: rgb(21, 134, 10);
+
+
+
+
+
+.origami1{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: violet;
+    width: 310px;
+    font-family: cursive;
 }
-.COLOUR4{
-    background-color: rgb(255, 127, 127);
+
+.origami2{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: indigo;
+    width: 310px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
 }
-.COLOUR5{
-    background-color: rgb(113, 177, 219);
+
+.origami3{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: lightgreen;
+    width: 310px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.origami4{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: lightblue;
+    width: 310px;
+    font-family:serif;
+    font-size: 18px;
+}
+
+.origami5{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: yellow;
+    width: 310px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.origami6{
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    border-radius: 20px;
+    background-color: orange;
+    width: 310px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
