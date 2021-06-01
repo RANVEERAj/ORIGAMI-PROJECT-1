@@ -5,21 +5,23 @@
     font-size: 18px;
     font-family: cursive;
     font-weight: 40;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF
 }
 
 .body{
     background-image: url(bg.jpg);
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     justify-content: space-between;
     text-align: center;
+    padding: 15px;
+    margin: 10px;
 }
 
 
 .color{
-    background-color:rgba(210, 201, 224, 0.815);
+    background-color:  #C9D2E1;
 }
 .grid1{
     display: flex;
@@ -35,10 +37,6 @@
     justify-content: space-evenly;
 }
 
-
-
-
-
 .origami1{
     border: solid;
     border-color: black;
@@ -47,6 +45,8 @@
     background-color: violet;
     width: 310px;
     font-family: cursive;
+    padding: 20px;
+    margin: 15px;
 }
 
 .origami2{
@@ -57,7 +57,9 @@
     background-color: indigo;
     width: 310px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #131111;
+    padding: 20px;
+    margin: 15px;
 }
 
 .origami3{
@@ -68,6 +70,8 @@
     background-color: lightgreen;
     width: 310px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 15px;
 }
 
 .origami4{
@@ -79,6 +83,8 @@
     width: 310px;
     font-family:serif;
     font-size: 18px;
+    padding: 20px;
+    margin: 15px;
 }
 
 .origami5{
@@ -89,6 +95,8 @@
     background-color: yellow;
     width: 310px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 15px;
 }
 
 .origami6{
@@ -98,5 +106,7 @@
     border-radius: 20px;
     background-color: orange;
     width: 310px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 20px;
+    margin: 15px;
 }
