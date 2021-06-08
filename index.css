@@ -1,3 +1,13 @@
+
+a:link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -37,7 +47,7 @@
     justify-content: space-evenly;
 }
 
-.origami1{
+.origami{
     border: solid;
     border-color: black;
     border-width: medium;
@@ -48,65 +58,12 @@
     padding: 20px;
     margin: 15px;
 }
-
-.origami2{
-    border: solid;
-    border-color: black;
-    border-width: medium;
-    border-radius: 20px;
-    background-color: indigo;
-    width: 310px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #131111;
-    padding: 20px;
-    margin: 15px;
+.origami p{
+    top:30%;
+    left: 70%;
+    opacity: 0;
 }
+.origami:hover p{
+    opacity:1 ;
 
-.origami3{
-    border: solid;
-    border-color: black;
-    border-width: medium;
-    border-radius: 20px;
-    background-color: lightgreen;
-    width: 310px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
-    margin: 15px;
-}
-
-.origami4{
-    border: solid;
-    border-color: black;
-    border-width: medium;
-    border-radius: 20px;
-    background-color: lightblue;
-    width: 310px;
-    font-family:serif;
-    font-size: 18px;
-    padding: 20px;
-    margin: 15px;
-}
-
-.origami5{
-    border: solid;
-    border-color: black;
-    border-width: medium;
-    border-radius: 20px;
-    background-color: yellow;
-    width: 310px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    margin: 15px;
-}
-
-.origami6{
-    border: solid;
-    border-color: black;
-    border-width: medium;
-    border-radius: 20px;
-    background-color: orange;
-    width: 310px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    padding: 20px;
-    margin: 15px;
 }
